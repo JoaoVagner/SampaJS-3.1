@@ -24,7 +24,7 @@ $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
 $mail->Username = "joao.vagner@gmail.com";
 //Password to use for SMTP authentication
-$mail->Password = "CHUPA MINHA SENHA SEUS CU";
+$mail->Password = "val651206";
 //Set who the message is to be sent from
 $mail->SetFrom($_POST['email'], $_POST['nome']);
 //Set an alternative reply-to address
