@@ -75,7 +75,7 @@
                     INGRESSOS LIMITADOS - INSCREVA-SE
                 </a>
                 <p class="price">
-                    R$ 50,00 ATÉ DIA 00/00
+                    R$ 50,00 ATÉ DIA 31/05
                 </p>
             </div>
 
