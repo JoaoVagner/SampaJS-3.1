@@ -1,0 +1,36 @@
+{
+    "palestrantes": [
+        {
+            "author": "Zaedy Sayão",
+            "title": "Nas entranhas do WebKit",
+            "photo": "https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/285499_102222093213309_1238777_n.jpg",
+            "start": "09:00",
+            "end": "09:50",
+            "description": "Cada vez mais ferramentas, softwares e devices possuem soluções baseadas no WebKit. Contudo, poucas pessoas sabem o que ele é de verdade, como ele funciona internamente, seu potencial e o que ele oferece. Veremos seus core, discutiremos como é possível usar o WebKit para fazer o seu browser ou usá-lo dentro de sua aplicação e entenderemos seu funcionamento e suas ferramentas disponiveis"
+        },
+        {
+            "author": "Daniel Jesus",
+            "title": "Ferramentas e produtividade em JS",
+            "photo": "palestrantes/yoman.jpeg",
+            "start": "10:00",
+            "end": "10:50",
+            "description": "Um tour por diversas ferramentas que nos ajudam a ser mais produtivos. Nesta palestra irei abordar desde grunt, bower, yeoman até travis.ci e ferramentas de deploy."
+        },
+        {
+            "author": "Leonardo Alberto - @leobetosouza",
+            "title": "Dominando seu DOM",
+            "photo": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/292141_10150935630770837_2048908385_n.jpg",
+            "start": "11:00",
+            "end": "11:50",
+            "description": "Manipular o DOM com VanillaJS já é uma realidade aceitável em alguns cenários e, mesmo que você use alguma biblioteca, saber o que ela tá fazendo por trás dos panos pode ser mais útil do que voce pensa. Vamos conversar sobre algumas peculiaridades do Document Object Model  e aprendermos a não sermos tão dependentes do jQuery e seus amigos."
+        },
+        {
+            "author": "Caio Gondin",
+            "title": "Dissecando sua aplicação com Dev Tools",
+            "photo": "http://f.cl.ly/items/0G0x3L0W0S0e2O0k0o3u/205859_10151142032196706_885419355_n.jpg",
+            "start": "17:30",
+            "end": "18:30",
+            "description": "Vamos abrir sua app ao meio e analisar de forma minunciosa toda sua anatomia. Iremos abordar breakpoints em JS, JS live editing, debug direto do Sublime Text, performance na renderização, repaint/reflow e detecção de memory leaks."
+        }
+    ]
+}
