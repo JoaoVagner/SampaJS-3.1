@@ -12,6 +12,11 @@
         <meta name=”description” content="<?php echo $config['site.desc']; ?>" />
         <meta name="robots" content="<?php echo $config['site.robots']; ?>" />
         <meta name=”keywords” content="<?php echo $config['site.keyworks']; ?>" />
+        <meta property="og:image" content="images/logo.png"/>
+        <meta property="og:title" content="<?php echo $config['site.title']; ?>"/>
+        <meta property="og:url" content="http://www.sampajs.com.br"/>
+        <meta property="og:site_name" content="SampaJS"/>
+        <meta property="og:type" content="event"/>
         <!-- Included CSS Files (Uncompressed) -->
         <!--
         <link rel="stylesheet" href="stylesheets/foundation.css">
