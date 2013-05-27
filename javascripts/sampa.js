@@ -79,7 +79,7 @@ SampaJS.app.validation = function() {
         $.ajax({
             url: 'contact/send.php',
             type: 'post',
-            dataType: 'get',
+            dataType: 'json',
             data: form.serialize(),
             success: function(data) {
                 $('.validation').html(data.success);
