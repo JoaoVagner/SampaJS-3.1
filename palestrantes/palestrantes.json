@@ -25,6 +25,22 @@
             "description": "Manipular o DOM com VanillaJS já é uma realidade aceitável em alguns cenários e, mesmo que você use alguma biblioteca, saber o que ela tá fazendo por trás dos panos pode ser mais útil do que voce pensa. Vamos conversar sobre algumas peculiaridades do Document Object Model  e aprendermos a não sermos tão dependentes do jQuery e seus amigos."
         },
         {
+            "author": "Klederson Bueno",
+            "title": "Um ORM/Data Mapper/Active Record para AngularJS",
+            "photo": "http://api.ning.com/files/4HS-8If3S0mHcpg9sqgacLMwoeEcim9hq1qq3Ny3vwbR0GpXqADs4cQj7daGnWotq9N7ztZxLoAulKhbnrAS8NVAagbhcZwE/DSC01054.JPG?width=184&height=184&crop=1%3A1",
+            "start": "13:00",
+            "end": "13:50",
+            "description": "Criado a partir da necessidade de ter alguma ferramenta que facilitasse e tornasse transparente o processo de CRUD mas principalmente persistencia de metodos de uma forma simples, padronizada e centralizada. Single Page Application é a bola da vez eu com uma maniuplação de dados decente é possível construir aplicações poderosas, modernas e muito divertidas."
+        },
+        {
+            "author": "Alexandre Gaigalas - gaigalas.net",
+            "title": "JavaScript Multiplataforma",
+            "photo": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/886501_10151361970146623_1452509308_o.jpg",
+            "start": "15:00",
+            "end": "15:50",
+            "description": "Uma introdução à várias técnicas para criar código JavaScript que roda em múltiplas plataformas sem alterações. Aprenda a compartilhar código entre o navegador e o servidor em bibliotecas, testes e aplicações inteiras."
+        },
+        {
             "author": "Caio Gondin",
             "title": "Dissecando sua aplicação com Dev Tools",
             "photo": "http://f.cl.ly/items/0G0x3L0W0S0e2O0k0o3u/205859_10151142032196706_885419355_n.jpg",

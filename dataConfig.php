@@ -9,7 +9,7 @@ $config = array(
                     <br /> <br />
                     Essa edição iremos entrar nas entranhas do WebKit com Zaedy
                     Sayão, mostrando como é possivel usar o webkit em suas aplicações
-                    e também como ele funciona e todos seus sgredos.
+                    e também como ele funciona e todos seus segredos.
                     <br /><br />
                     Nessa edição vamos focar também a produtividade, mostrando como
                     é importante mostrando algumas ferramentas para melhorar sua
