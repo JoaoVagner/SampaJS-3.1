@@ -33,6 +33,14 @@
             "description": "Criado a partir da necessidade de ter alguma ferramenta que facilitasse e tornasse transparente o processo de CRUD mas principalmente persistencia de metodos de uma forma simples, padronizada e centralizada. Single Page Application é a bola da vez eu com uma maniuplação de dados decente é possível construir aplicações poderosas, modernas e muito divertidas."
         },
         {
+            "author": "Eduardo Shiota Yasuda - eshiota.com",
+            "title": "JavaScript Multiplataforma",
+            "photo": "https://si0.twimg.com/profile_images/1899059695/thumb.jpg",
+            "start": "14:00",
+            "end": "14:50",
+            "description": "Em aplicações de larga escala, certas interações que parecem simples aos olhos do usuário escondem a complexidade de múltiplas requisições assíncronas e updates no DOM toda vez que uma informação é modificada. Esta complexidade pode facilmente virar um inferno de callbacks, e nesta palestra mostrarei como através de uma estrutura event driven criada do zero é possível quebrar uma página em componentes modulares, desacoplados, e testáveis."
+        },
+        {
             "author": "Alexandre Gaigalas - gaigalas.net",
             "title": "JavaScript Multiplataforma",
             "photo": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn1/886501_10151361970146623_1452509308_o.jpg",
