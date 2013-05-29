@@ -41,6 +41,14 @@
             "description": "Uma introdução à várias técnicas para criar código JavaScript que roda em múltiplas plataformas sem alterações. Aprenda a compartilhar código entre o navegador e o servidor em bibliotecas, testes e aplicações inteiras."
         },
         {
+            "author": "Alex Piaz - @zaip",
+            "title": "Teste suas Apis com Frisby.js",
+            "photo": "http://www.gravatar.com/avatar/cd05c22fea053bc6ee254cb173469b92.png?size=250",
+            "start": "16:00",
+            "end": "16:50",
+            "description": "Precisa testar o comportamento de suas Api's REST? Este incrível app desenvolvido em Node.js vai ajudar você! A palestra irá fornecer os conhecimentos necessários para utilizar o Frisby.js e testar suas APis bem como integrar os testes desenvolvidos em apps de CI como Jenkins."
+        },
+        {
             "author": "Caio Gondin",
             "title": "Dissecando sua aplicação com Dev Tools",
             "photo": "http://f.cl.ly/items/0G0x3L0W0S0e2O0k0o3u/205859_10151142032196706_885419355_n.jpg",
