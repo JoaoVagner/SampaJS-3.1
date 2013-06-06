@@ -32,7 +32,7 @@ body, h1 { margin: 0; padding: 0; }
 .bgPonte {
     background: url('../images/bg.jpg') no-repeat center;
     height: 903px;
-    padding: 49px 0 0 0;
+    padding: 45px 0 0 0;
 }
 
 .share {
@@ -41,7 +41,7 @@ body, h1 { margin: 0; padding: 0; }
 }
 
 .navsite {
-    margin: 40px 0 0 0;
+    margin: 27px 0 0 0;
     width: 351px;
     display: block;
     float: left;
@@ -55,7 +55,6 @@ body, h1 { margin: 0; padding: 0; }
     background: url('../images/arrow.png') no-repeat right;
     font-family: 'Homenaje', sans-serif;
     font-size: 23px;
-    font-weight: bold;
     line-height: 30px;
     color: #868686;
     padding: 0 10px 0 0;
@@ -70,7 +69,7 @@ body, h1 { margin: 0; padding: 0; }
 }
 
 header .container p.title {
-    margin: 90px 0 0 0;
+    margin: 60px 0 0 0;
     padding: 0;
     text-align: center;
     clear: both;
@@ -94,7 +93,7 @@ header .container p.local  {
 
 header .container a.buy {
     width: 376px;
-    height: 57px;
+    height: 56px;
     display: block;
     line-height: 50px;
     text-align: center;
@@ -104,14 +103,19 @@ header .container a.buy {
     font-size: 15px;
     font-weight: bold;
     color: #000;
-    background: url('../images/btn-buy.png') no-repeat;
+    background: url('../images/btn-buy.png') no-repeat center top;
     text-transform: uppercase;
 }
 
+header a.buy:hover {
+    background: url('../images/btn-buy.png') no-repeat center bottom;
+}
+
 header .container p.price {
+    margin: 10px 0 0;
     text-align: center;
-    font-size: 20px;
-    color: gold;
+    font: bold 20px 'Open Sans',sans-serif;
+    color: #868686;
 }
 
 span.big { font-size: 63px; text-transform: uppercase; display: block;}
@@ -123,9 +127,13 @@ span.big { font-size: 63px; text-transform: uppercase; display: block;}
 
 div.sobre {
     background: url('../images/about.png') no-repeat center;
-    height: 531px;
+    height: 812px;
     margin: -105px 0 0 0;
-    padding: 30px 0 0 0;
+    padding: 100px 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 div.sobre .container {
@@ -134,26 +142,31 @@ div.sobre .container {
 }
 
 div.sobre h2 {
+    margin: 0;
+    font-family: Homenaje, sans-serif;
+    font-size: 70px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+div.sobre h3 {
+    margin: 5px 0 35px;
     font-family: "Open Sans", sans-serif;
-    font-size: 80px;
+    font-weight: lighter;
+    font-size: 28px;
     color: #000;
     text-align: center;
     text-transform: uppercase;
 }
 
-div.sobre h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 30px;
-    color: #000;
-    text-align: center;
-}
-
 div.sobre p {
-    font-size: 15px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    line-height: 18px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -162,7 +175,11 @@ div.sobre p {
 ----------------------------------------- */
 
 div.palestras {
-    padding: 100px 0 0 0;
+    padding: 100px 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 div.palestras .container {
@@ -172,19 +189,23 @@ div.palestras .container {
 
 
 div.palestras h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 80px;
+    margin: 0;
+    font-family: Homenaje, sans-serif;
+    font-size: 70px;
     color: #000;
     text-align: center;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 div.palestras h3 {
+    margin: 5px 0 35px;
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 28px;
     color: #000;
     text-align: center;
+    text-transform: uppercase;
 }
 
 div.palestras hr {
@@ -208,10 +229,8 @@ div.palestras .item figure {
 }
 
 div.palestras .item figure img {
-    border: 8px solid gold;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
+
+
 }
 
 div.palestras .item .data {
@@ -222,6 +241,7 @@ div.palestras .item .data {
 }
 
 div.palestras .item .data h2 {
+    margin: 0;
     display: inline-block;
     font-size: 32px;
     font-family: 'Homenaje', sans-serif;
@@ -232,23 +252,38 @@ div.palestras .item .data h2 {
     padding: 0;
 }
 
-div.palestras .item .data h2 span {
-    color: gold;
+div.palestras .item .data .hour {
+    position: relative;
+    color: #f4b200;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+div.palestras .item .data .hour:after {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: 7px;
+    height: 3px;
+    width: 3px;
+    background: #f4b200;
 }
 
 div.palestras .item .data h3 {
+    margin: 7px 0 0;
+    padding: 0;
     font-family: "Open Sans", sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     text-align: left;
     line-height: 22px;
-    margin: 0;
-    padding: 0;
 }
 
 div.palestras .item .data p {
-    margin: 10px 0 0 0;
+    margin: 25px 0 0 0;
     clear:both;
+    font: 15px/25px "Open Sans",sans-serif;
+    color: #444;
 }
 
 /* -----------------------------------------
@@ -256,8 +291,13 @@ div.palestras .item .data p {
 ----------------------------------------- */
 
 div.local {
-    padding: 100px 0 50px 0;
+    padding: 100px 0;
     background-image: url('../images/bg-local.jpg');
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
 }
 
 div.local .container {
@@ -266,27 +306,39 @@ div.local .container {
 }
 
 div.local h2 {
+    margin: 0;
+    font-family: Homenaje, sans-serif;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+div.local h3 {
+    margin: 5px 0 35px;
     font-family: "Open Sans", sans-serif;
-    font-size: 80px;
+    font-weight: lighter;
+    font-size: 28px;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
 }
-
-div.local h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-}
 div.local .map { text-align: right; }
 div.local .map a {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 22px;
-    color: #fff;
+    color: #868686;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
     text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+div.local a:hover {
+    color: #000;
+    background: #ffd400;
+    text-decoration: none;
 }
 
 div.local p {
@@ -294,6 +346,11 @@ div.local p {
     font-family: "Open Sans", sans-serif;
     color: #fff;
     text-align: center;
+    margin: 24px 0 0;
+}
+
+div.local p a {
+    color: #ffd400;
 }
 
 
@@ -303,13 +360,27 @@ div.local p {
 ----------------------------------------- */
 
 div.patrocinadores {
-    padding: 20px 0 50px 0;
+    padding: 100px 0 145px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 div.patrocinadores .container {
     width: 990px;
     margin: 0 auto 0 auto;
     text-align: center;
+}
+
+div.patrocinadores h2 {
+    margin: 0 0 50px;
+    font-family: Homenaje, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: normal;
 }
 
 
@@ -325,6 +396,7 @@ footer {
 }
 
 footer .yellow {
+    padding-bottom: 15px;
     background: #ffd400;
 }
 footer .container {
@@ -333,25 +405,33 @@ footer .container {
 }
 
 footer h2 {
+    margin: 0;
     font-family: "Homenaje", sans-serif;
-    font-size: 80px;
+    font-size: 70px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+footer h3 {
+    margin: 5px 0 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
     color: #000;
     text-align: center;
     text-transform: uppercase;
 }
 
-footer h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 30px;
-    color: #000;
-    text-align: center;
+footer form {
+    margin-bottom: 30px;
 }
 
 footer form input {
     width: 389px  !important;;
     height: 24px !important;
-    padding:30px !important;
+    padding:28px !important;
     color: #000 !important;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
@@ -362,14 +442,24 @@ footer form input {
 
 footer form textarea {
     width: 490px  !important;;
-    height: 139px !important;
+    height: 125px !important;
     padding:30px !important;
     color: #000 !important;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
     border: none  !important;
     float:right;
+}
+
+footer .button {
+    background: none repeat scroll 0 0 #111;
+    border: 1px solid #000;
+}
+
+footer .button:hover {
+    background: none repeat scroll 0 0 #555;
+    border: 1px solid #444;
 }
 
 footer .align-right { text-align: right; display: inline-block; width: 96%;}
@@ -378,18 +468,22 @@ footer .align-right p { display: inline; text-align: right;}
 
 footer a.buy {
     width: 376px;
-    height: 57px;
+    height: 56px;
     display: block;
     line-height: 50px;
     text-align: center;
-    margin: 40px auto 0 auto;
+    margin: 10px auto 0 auto;
     padding: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #000;
-    background: url('../images/btn-buy.png') no-repeat;
+    background: url('../images/btn-buy.png') no-repeat center top;
     text-transform: uppercase;
+}
+
+footer a.buy:hover {
+    background: url('../images/btn-buy.png') no-repeat center bottom;
 }
 
 footer .socialmidias {
@@ -403,7 +497,7 @@ footer .social {
     text-align: right;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
     color: #000;
     width: 30%;
     margin-left: 10%;
@@ -429,4 +523,51 @@ footer .socialmidias a.facebook {
 }
 footer .add_this {
     width: 370px;
+}
+
+footer .btns-share {
+    margin-top: 15px;
+}
+
+footer .creditos-site {
+    text-align: center;
+    font: 13px "Open Sans";
+    margin-top: 28px;
+}
+
+footer .creditos-site a {
+    color: #000;
+    text-decoration: underline;
+}
+
+footer .creditos-site a:hover {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* -----------------------------------------
+   btn topo
+----------------------------------------- */
+.btn-topo {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 75px;
+    height: 55px;
+}
+
+.btn-topo a {
+    display: block;
+    width: 100%;
+    height:100%;
+    background: rgba(168,168,168,0.8) url('../images/btn-topo.png') no-repeat center;
+    text-indent: -9999px;
+}
+
+.btn-topo a:hover {
+    background: #FFD400 url('../images/btn-topo.png') no-repeat center;
 }

@@ -136,19 +136,13 @@
 
                 <p>
                     <strong>
-                        PUC - Consolação.
-                    </strong>
-                </p>
-                <p>
-                    <strong>
+                        PUC - Consolação. <br />
                         Rua Marques de Paranaguá, 1111. São Paulo, São Paulo
                     </strong>
                 </p>
                 <p>
-                    Horario: 9h as 18:00
-                </p>
-                <p>
-                    Dúvidas? Entre em<strong><a href="#contato"> contato!</a>
+                    Horario: 9h as 18:00 <br />
+                    Dúvidas? Entre em<strong> <a href="#contato">contato</a>!
                 </p>
 
             </div>
@@ -160,6 +154,11 @@
                 <a href="http://www.techinsider.com.br" title="TechInsider" target="_blank">
                     <img src="images/techinsider.png" alt="TechInsider" />
                 </a>
+
+
+                <a href="http://www.akna.com.br" title="Akna - Relacionamento Digital Inteligente" target="_blank">
+                    <img src="images/akna.jpg" alt="Akna - Relacionamento Digital Inteligente" />
+                </a>
             </div>
         </div>
         <footer id='contato'>
@@ -167,9 +166,7 @@
                 <div class="container">
                     <h2>Entre em contato</h2>
                     <h3>
-                        TIRE SUAS DÚVIDAS, SEJA NOSSO PATROCINADOR
-                    </h3>
-                    <h3>
+                        TIRE SUAS DÚVIDAS, SEJA NOSSO PATROCINADOR <br />
                         OU DEIXE APENAS UM OI. =d
                     </h3>
                     <br />
@@ -206,7 +203,7 @@
                                 Twitter
                             </a>
                         </div>
-                        <div class="large-4 columns">
+                        <div class="large-4 columns btns-share">
                             <!-- AddThis Button BEGIN -->
                             <div class="addthis_toolbox addthis_default_style add_this">
                                 <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -218,11 +215,18 @@
                             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51a27e31494a2843"></script>
                             <!-- AddThis Button END -->
                         </div>
-                        <div class="large-4 columns"></div>
+                        <div class="large-4 columns">
+                        </div>
                     </div>
+                    <p class="creditos-site">
+                        © 2013 - Sampa JS - Todos os direitos reservados. <br />
+                        Design <a href="http://www.ladodesign.com.br"> Diogo Rodrigues / Lado Design </a>
+                    </p>
                 </div>
             </div>
         </footer>
+
+        <div class="btn-topo"><a href="#"> TOPO </a> </div>
 
         <!-- Included JS Files (Uncompressed) -->
         <!--
